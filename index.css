@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 10px;
+    font-family: 'Arial';
+    letter-spacing: 2.5px;
+}
+
+.flexBox{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-size: 54px;
+    color: #fff;
+    text-shadow: 11px -14px 11px #ffffff7d;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 80px;
+    height: fit-content;
+    padding: 10px ;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.StartBtn{
+    background-color: rgb(0, 255, 170);
+    color: #000;
+    transition: 0.5s;
+}
+
+.StopBtn{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.ResetBtn{
+    background-color: rgb(0, 153, 255);
+    color: #fff;
+}
